@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Poppins", serif;
+}
+
+
+.text-resize {
+    /* font-size: clamp(5rem, 5vw, 20rem); */
+    font-size: clamp(3rem, 5vw, 10rem);
+    text-shadow: 10px 5px 10px rgba(0,0,0,0.5);
+}
